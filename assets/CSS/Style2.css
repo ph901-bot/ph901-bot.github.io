@@ -1,0 +1,140 @@
+/**********Main Body*****/
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+/*****HEADERS****/
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: Impact, sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    font-family: cursive;
+    font-size: large;
+    font-weight: 1000;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.established {
+    font-style: italic;
+}
+
+/*****Camper Cafe***/
+h1 {
+    font-size: 40px;
+    margin-top: -25px;
+    margin-bottom: 15px;
+
+}
+
+/*****Desserts****/
+h2 {
+    font-size: 30px;
+}
+
+/*all the <hr/> horizontal rule tags*/
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+p:hover {
+    color: brown;
+}
+
+/***The PricelistPage****/
+
+.menu {
+    max-width: 500px;
+    width: 80%;
+    background-color: burlywood;
+    /*background-color: black;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+    /*color: aliceblue;*/
+}
+
+/****Article Prices*/
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor,
+.dessert {
+    text-align: left;
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*FOOTER*/
+footer {
+    font-size: 14px;
+
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}
